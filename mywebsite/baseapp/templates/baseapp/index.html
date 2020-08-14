@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rohit Mohan Krishna G V L</title>
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-3">
+          <div class="card card-body h-100" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/rmk.jpg' %}" alt="" />
+            <h4>Hi I'm Rohit!</h4>
+            <p>I love coding , playing games and exploring new stuff</p>
+          </div>
+        </div>
+        <div class="col col-md-9">
+          <div class="card card-body h-100">
+            <h4>Humble Beginnings</h4>
+            <p>
+              I began my coding career when I was 18 years old. I had no
+              previous knowledge of coding. So I started off with C programming
+              language and then realized that there was a lot more to learn ,
+              and by the end of my Engineering I am positive that I will be able
+              to learn a lot more and I am currently in the process
+            </p>
+            <p>Given below are the links using which you can contact me</p>
+            <ul class="title">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/rohit-mohan-krishna-g-v-l-86a9b21a2"
+                  ><img class="sc"
+                    src="{% static 'images/LinkedIn-Logo.png' %}"
+                    alt=""
+                    width="50"
+                    height="50"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/rmkgvl"><img class="sc" src="{% static 'images/github.png' %}" alt="" width="50" height="50" ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col col-md-6">
+          <div class="card card-body h-100">
+            <h4>Education</h4>
+            <table>
+              <tr>
+                <td>Class 10</td>
+                <td>Narayana E Techno School</td>
+                <td>10 CGPA</td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                <td>Class 12</td>
+                <td>Narayana E Techno School</td>
+                <td>92.3%</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <td>BE Computer Science and Engineering</td>
+                <td>R V College of Engineering</td>
+                <td>9.51 CGPA</td>
+                <td>2018-2022</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="col col-md-6">
+          <div class="card card-body h-100">
+            <h4>Skills I know</h4>
+            <p>Programming Languages:- C , C++ , Java , Python</p>
+            <p>
+              Full Stack Web Development:- HTML , CSS , JavaScript, Bootstrap,
+              Django , Mongo DB, REST API
+            </p>
+            <p>Machine Learning, Deep Learning</p>
+            <p>Automation and Scripting:-Ansible</p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
+<!--<h1>This is index</h1>
+<img src="{% static 'images/rmk.jpg' %}" alt="">-->
